@@ -16,4 +16,4 @@
 - CSS3 (flexbox, grid, Media Queries)
 
 ## Design
-![Preview do Site The sims 4](/img/resultthesims4.png)
+![Preview do Site The sims 4](resultthesims4.png)
