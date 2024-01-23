@@ -3,9 +3,12 @@
 :root {
   --v1: #2ba400;
   --v2: #60e830;
+  --v3: #217702;
   --a1: #188ddf;
+  --a2: #0c67a8;
   --c1: #f4f0f0;
   --c2: #d9d9d9;
+  --c3: #c4c4c4;
 }
 
 * {
@@ -85,7 +88,7 @@ body {
   margin: 40px 0px 50px;
 }
 
-.todos-expansoes {
+.todos {
   font-family: "Poppins", sans-serif;
   display: flex;
   gap: 4px;
@@ -95,6 +98,10 @@ body {
   padding: 8px;
   background-color: var(--v1);
   border-radius: 4px;
+}
+
+.todos:hover {
+  background-color: var(--v3);
 }
 
 .cards {
@@ -135,6 +142,11 @@ body {
   text-transform: uppercase;
 }
 
+.saibamais-item:hover {
+  background-color: var(--c3);
+}
+
+
 .pacotes {
   margin-top: 100px;
 }
@@ -170,4 +182,8 @@ footer {
 .span-footer {
   color: var(--a1);
   text-decoration: none;
+}
+
+.span-footer:hover {
+color: var(--a2);
 }
