@@ -1,0 +1,42 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.header-menu a {
+  font-weight: 600;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-menu a:hover {
+  color: #2BA400;
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .header a {
+    background-color: #2ca40093;
+    border-radius: 3px;
+  }
+
+  .header a:hover {
+    color: #000000;
+  }
+}
