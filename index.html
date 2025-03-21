@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Sims 4</title>
   <link rel="stylesheet" href="./css/style.css">
+  <script>document.documentElement.className += 'js';</script>
 </head>
 
 <body>
   <header class=" header" id="header">
     <img src="./img/the sims 4 logo.svg" alt="The Sims 4 Logo">
-    <nav>
-      <ul class="header-menu">
+    <nav class="header-menu js-menu">
+      <ul>
         <li><a href="#expansoes">Expansões</a></li>
         <li><a href="#pacotes">Pacotes</a></li>
         <li><a href="#colecoes">Coleções</a></li>
@@ -31,7 +32,7 @@
 
   <hr class="divisor">
 
-  <section id="expansoes" class="container">
+  <section id="expansoes" class="container js-tabcontent">
     <div class="titulo-container">
       <h2>Expansões</h2>
       <a class="vertodos-container" href="#"><img src="./img/vertodos.svg" alt="">Ver Todos</a>
@@ -64,7 +65,7 @@
     </div>
   </section>
 
-  <section id="pacotes" class="container">
+  <section id="pacotes" class="container js-tabcontent">
     <div class="titulo-container">
       <h2>Pacotes</h2>
       <a class="vertodos-container" href="#"><img src="./img/vertodos.svg" alt="">Ver Todos</a>
@@ -97,7 +98,7 @@
     </div>
   </section>
 
-  <section id="colecoes" class="container">
+  <section id="colecoes" class="container js-tabcontent">
     <div class="titulo-container">
       <h2>Coleções</h2>
       <a class="vertodos-container" href="#"><img src="./img/vertodos.svg" alt="">Ver Todos</a>
@@ -130,7 +131,7 @@
     </div>
   </section>
 
-  <section id="kits" class="container">
+  <section id="kits" class="container js-tabcontent">
     <div class="titulo-container">
       <h2>Kits</h2>
       <a class="vertodos-container" href="#"><img src="./img/vertodos.svg" alt="">Ver Todos</a>
@@ -163,7 +164,7 @@
     </div>
   </section>
 
-  <section class="pre-footer">
+  <section class="pre-footer js-menu">
     <img src="./img/the sims 4 logo.svg" alt="The Sims 4">
     <a href="#header"><img src="./img/topo.svg">Voltar ao Topo</a>
   </section>
@@ -172,6 +173,7 @@
     <p>@2024</p>
     <p>Desenvolvido & Criado por <a target="_blank" href="https://www.linkedin.com/in/anamariadutra/">Ana Maria</a></p>
   </footer>
+  <script src="./script.js"></script>
 </body>
 
 </html>

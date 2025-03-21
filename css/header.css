@@ -7,7 +7,7 @@
   padding: 20px 100px;
 }
 
-.header-menu {
+.header-menu ul {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -21,7 +21,7 @@
 }
 
 .header-menu a:hover {
-  color: #2BA400;
+  color: #2ba400;
 }
 
 @media (max-width: 800px) {
